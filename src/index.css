@@ -13,19 +13,11 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-a {
-  font-weight: 500;
-  color: #646cff;
-  text-decoration: inherit;
-}
-a:hover {
-  color: #535bf2;
-}
 
 body {
   margin: 0;
   display: flex;
-  justify-content: center   ;
+  justify-content: center;
   align-items: center;
   min-height: 100vh;
 }
@@ -190,10 +182,9 @@ h1{
   color: #646cff;
   margin-bottom: 0.75rem;
   padding-bottom: 0.5rem;
-  border-bottom: 1px solid rgba(100, 108, 255, 0.2);
+  border-bottom: 1px solid rgba(100, 108, 255, 0.3);
   text-transform: capitalize;
   cursor: pointer;
-  border-bottom-color: rgba(100, 108, 255, 0.3);
 }
 
 .nested-label-text {
@@ -208,16 +199,12 @@ h1{
   justify-content: center;
   border-radius: 4px;
   border: 1px solid rgba(100, 108, 255, 0.3);
-
   background-color: rgba(100, 108, 255, 0.1);
-  border-color: rgba(100, 108, 255, 0.3);
   color: #535bf2;
-  /* font-size: 1.2em; */
   font-weight: bold;
   cursor: pointer;
   transition: all 0.2s;
   padding: 0;
-  /* line-height: 1; */
   flex-shrink: 0;
   text-align: center;
 }
@@ -231,15 +218,10 @@ h1{
   padding: 0;
 }
 
-/* .toggle-btn:hover {
+.toggle-btn:hover {
   background-color: rgba(100, 108, 255, 0.2);
   border-color: rgba(100, 108, 255, 0.5);
-  transform: scale(1.1);
 }
-
-.toggle-btn:active {
-  transform: scale(0.95);
-} */
 
 .nested-content {
   margin-top: 0.5rem;
@@ -442,9 +424,6 @@ h1{
     color: #213547;
     background-color: #ffffff;
   }
-  a:hover {
-    color: #747bff;
-  }
   button {
     background-color: #f9f9f9;
   }
@@ -485,7 +464,9 @@ h1{
     background-color: rgba(100, 108, 255, 0.08);
   }
 
-
+  .nested-label {
+    color: #535bf2;
+  }
 
   .toggle-btn:hover {
     background-color: rgba(100, 108, 255, 0.2);

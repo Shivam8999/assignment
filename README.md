@@ -2,7 +2,9 @@
 
 A React-based dynamic form generator that intelligently creates editable forms from any JSON configuration. The application automatically infers field types, supports nested objects, arrays, and provides a clean interface for editing complex JSON structures.
 
+## 🚀 Live Demo
 
+[View Live Application](https://citta-assignment.netlify.app/) *(Update with your deployment URL)*
 
 ## ✨ Features
 
